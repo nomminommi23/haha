@@ -13,6 +13,7 @@ for file in os.listdir():
 
 
 print(files)
+print("hi")
 
 with open("thekey.key", "rb") as key:
 	secretkey = key.read()
