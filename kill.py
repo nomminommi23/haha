@@ -13,6 +13,7 @@ for file in os.listdir():
 
 
 print(files)
+print("hi")
 
 
 key = Fernet.generate_key()
